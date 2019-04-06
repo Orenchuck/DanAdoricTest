@@ -69,7 +69,7 @@ a {
 
 .grid-item-bg {
   background-color: #29333b;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.jpeg");
 }
 
 .grid-item-gray {
@@ -156,4 +156,37 @@ a {
   height: 33px;
   background-color: transparent;
   border: none;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socials a {
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.socials li:not(:last-child) {
+  margin-right: 6px;
+}
+
+.socials__fb {
+  background-image: url("../img/fb.png");
+}
+
+.socials__dr {
+  background-image: url("../img/dr.png");
+}
+
+.socials__tw {
+  background-image: url("../img/tw.png");
 }

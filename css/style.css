@@ -41,6 +41,52 @@ a, input, textarea {
 }
 
 a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
+}
+
+.grid-item-bg {
+  background-color: #29333b;
+  background-image: url("../img/bg.jpg");
+}
+
+.grid-item-gray {
+  background-color: #f3f3f3;
+}
+
+.grid-item-blue {
+  background-color: #4397a9;
+  background-image: url("../img/bg-blue.jpg");
+}
+
+.grid-item-beige {
+  background-color: #f9edcc;
+  background-image: url("../img/bg-beige.jpg");
+}
+
+.grid-item-black {
+  background-color: #2a3139;
+  background-image: url("../img/bg-black.jpg");
+}
+
+.grid-item-man {
+  background-color: #1e4659;
+  background-image: url("../img/bg-man.jpg");
+}
+
+.grid-item-navy {
+  background-color: #556c6d;
+  background-image: url("../img/bg-gray.jpg");
+}
+
+.grid-item-bg,
+.grid-item-gray,
+.grid-item-blue,
+.grid-item-beige,
+.grid-item-black,
+.grid-item-man,
+.grid-item-navy {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
